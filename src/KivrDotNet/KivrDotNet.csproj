@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Version>1.0.0</Version>
+        <Authors>Samuel Lucas</Authors>
+        <Description>A .NET implementation of the KIVR transform for AEAD context commitment.</Description>
+        <Copyright>Copyright (c) 2023 Samuel Lucas</Copyright>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/samuel-lucas6/KIVR.NET</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/samuel-lucas6/KIVR.NET</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>kivr aead chacha20 poly1305 chacha20poly1305 commitment context-commitment committing context-committing cmt4</PackageTags>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Geralt" Version="3.0.0" />
+    </ItemGroup>
+
+</Project>
